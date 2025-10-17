@@ -14,13 +14,13 @@
     "eslint-config",
     "eslint-config-loopback"
   ],
-  "author": "IBM <callback@us.ibm.com>",
+  "author": "IBM Corp. and LoopBack contributors",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/strongloop/eslint-config-loopback/issues"
   },
   "homepage": "https://github.com/strongloop/eslint-config-loopback",
   "dependencies": {
-    "eslint-plugin-mocha": "^5.2.0"
+    "eslint-plugin-mocha": "^10.5.0"
   }
 }
