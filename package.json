@@ -2,10 +2,10 @@
   "name": "eslint-config-loopback",
   "version": "14.0.0",
   "description": "ESLint configs for LoopBack projects.",
-  "main": "eslint.json",
+  "main": "eslint.config.mjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/strongloop/eslint-config-loopback.git"
+    "url": "git+https://github.com/loopbackio/eslint-config-loopback.git"
   },
   "keywords": [
     "eslint",
@@ -17,10 +17,14 @@
   "author": "IBM Corp. and LoopBack contributors",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/strongloop/eslint-config-loopback/issues"
+    "url": "https://github.com/loopbackio/eslint-config-loopback/issues"
   },
-  "homepage": "https://github.com/strongloop/eslint-config-loopback",
+  "homepage": "https://github.com/loopbackio/eslint-config-loopback",
   "dependencies": {
-    "eslint-plugin-mocha": "^10.5.0"
+    "eslint-plugin-mocha": "^11.0.0",
+    "globals": "^15.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0"
   }
 }
